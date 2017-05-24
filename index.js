@@ -4,9 +4,9 @@ var mysql = require('mysql');
 var app = express();
 var img = mysql.createConnection({
 	host: "127.0.0.1",
-	user: "nane008",
-	password: "03102000dupla",
-	database: "pxp"
+	user: "user",
+	password: "pass",
+	database: "db"
 });
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));

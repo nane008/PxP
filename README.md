@@ -6,7 +6,7 @@ Current version only supports including a picture and trying to guess what is on
 It is enough to get the idea. However, the project will be developed further and it is currently being improved.
 
 In order to run it, one needs to run a SQL database and include its login data in files: "index.js" and "convserv.js".
-Another requirement is to have node.js installed in order to run the game server.
+Another requirement is to have node.js installed in order to run the game server and its dependencies are specified in the package.json file
 After completing the forementioned, one shall fill the database using the included converter. It is meant to be run offline for security reasons. Run it with a simple command:
 
 node convserv.js

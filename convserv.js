@@ -6,9 +6,9 @@ app.use(bodyParser.json({limit: '5mb'}));
 app.use(bodyParser.urlencoded({extended:true,limit: '5mb'}));
 var img = mysql.createConnection({
 	host: "localhost",
-	user: "root",
-	password: "03102000dupla",
-	database: "pxp"
+	user: "user",
+	password: "pass",
+	database: "db"
 });
 app.get('/:name', function (req, res)
 {
